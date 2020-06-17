@@ -18,3 +18,7 @@ if __name__ == '__main__':
     print(victor.idade)
     for pet in victor.pets:
             print(pet.nome)
+    victor.sobrenome = 'Nunes'
+    del victor.pets
+    print (victor.__dict__)
+    print (jack.__dict__)
